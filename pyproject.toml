@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DeepSea"
+version = "0.1.0"
+description = "Deep Learning & ML library for oceanographic data"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.21", "pandas>=1.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["DeepSea"]
