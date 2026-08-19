@@ -4,7 +4,7 @@ A Python library for Deep Learning & Machine Learning, focused on oceanographic 
 
 ## Installation
 ```bash
-pip install git+https://github.com/YourGitHubUsername/DeepSea.git
+pip install https://github.com/sethfranklin016-svg/DeepSea.
 
 ## Usage
 
